@@ -1,0 +1,25 @@
+{
+  "name": "chromeapp-boilerplate",
+  "version": "1.0.0",
+  "description": "Google Chrome application boilerplate",
+  "main": "./app/manifest.json",
+  "keywords": [
+    "google",
+    "chrome",
+    "app",
+    "package",
+    "browser"
+  ],
+  "authors": [
+    "Nir Elbaz"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nire0510/chromeapp-boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  // Required
+  // https://developer.chrome.com/apps/manifest/app
+  "app": {
+    "background": {
+      // Optional
+      "scripts": ["scripts/background.js"]
+    }
+  },
+  // https://developer.chrome.com/apps/manifest/manifest_version
+  "manifest_version": 2,
+  // https://developer.chrome.com/apps/manifest/name
+  "name": "My Chrome App",
+  // https://developer.chrome.com/apps/manifest/version
+  "version": "1.0.0",
+
+  // Recommended
+  // https://developer.chrome.com/apps/manifest/default_locale
+  //"default_locale": "en",
+  // https://developer.chrome.com/apps/manifest/description
+  "description": "A plain text description",
+  // https://developer.chrome.com/apps/manifest/icons
+  "icons": {
+    "icons": {
+      "16": "images/chrome-16.png",
+      "128": "images/chrome-128.png"
+    }
+  }
+
+  /*
+  // Optional
+  "author": "",
+  // https://developer.chrome.com/apps/manifest/bluetooth
+  "bluetooth": {
+    "uuids": ["1105", "1006"]
+  },
+  // https://developer.chrome.com/apps/manifest/commands
+  "commands": {},
+  "current_locale": "en",
+  // https://developer.chrome.com/apps/manifest/externally_connectable
+  "externally_connectable": {
+    "matches": ["*://*.example.com/*"]
+  },
+  // https://developer.chrome.com/apps/manifest/externally_connectable
+  "file_handlers": {},
+  "import": "",
+  "key": "publicKey",
+  // https://developer.chrome.com/apps/manifest/kiosk_enabled
+  "kiosk_enabled": true,
+  // https://developer.chrome.com/apps/manifest/kiosk_only
+  "kiosk_only": true,
+  // https://developer.chrome.com/apps/manifest/minimum_chrome_version
+  "minimum_chrome_version": "36",
+  // https://developer.chrome.com/apps/manifest/nacl_modules
+  "nacl_modules": [],
+  "oauth2": "",
+  // https://developer.chrome.com/apps/manifest/offline_enabled
+  "offline_enabled": true,
+  // https://developer.chrome.com/apps/manifest/optional_permissions
+  "optional_permissions": ["tabs"],
+  // https://developer.chrome.com/apps/manifest/permissions
+  "permissions": ["tabs"],
+  "platforms": "",
+  // https://developer.chrome.com/apps/manifest/requirements
+  "requirements": {},
+  // https://developer.chrome.com/apps/manifest/sandbox
+  "sandbox": [],
+  // https://developer.chrome.com/apps/manifest/short_name
+  "short_name": "Short Name",
+  "signature": "",
+  // https://developer.chrome.com/apps/manifest/sockets
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    },
+    "udp": {
+      "send": "*"
+    }
+  },
+  // https://developer.chrome.com/apps/manifest/storage
+  "storage": {
+    "managed_schema": "schema.json"
+  },
+  "system_indicator": "",
+  // https://developer.chrome.com/apps/manifest/update_url
+  "update_url": "http://path/to/updateInfo.xml",
+  // https://developer.chrome.com/apps/manifest/url_handlers
+  "url_handlers": {}//,
+  // https://developer.chrome.com/apps/manifest/webview
+  "webview": {}
+  */
+}
