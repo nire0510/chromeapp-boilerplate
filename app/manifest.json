@@ -4,7 +4,7 @@
   "app": {
     "background": {
       // Optional
-      "scripts": ["scripts/background.js"]
+      "scripts": ["/scripts/background.js"]
     }
   },
   // https://developer.chrome.com/apps/manifest/manifest_version
@@ -21,10 +21,9 @@
   "description": "A plain text description",
   // https://developer.chrome.com/apps/manifest/icons
   "icons": {
-    "icons": {
-      "16": "images/chrome-16.png",
-      "128": "images/chrome-128.png"
-    }
+    "16": "/images/chrome-16.png",
+    "32": "/images/chrome-32.png",
+    "128": "/images/chrome-128.png"
   }
 
   /*
